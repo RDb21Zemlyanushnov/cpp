@@ -33,7 +33,8 @@ int main()
     cout << "x, grad = ";
     cin >> x;
     cout << '\n';
-    cout << "samopisniy sin = " << sinus_ryadom(x*M_PI/180) << endl;
-    cout << "sin = " << sin(x*M_PI/180) << endl;
+    x=x*M_PI/180;
+    cout << "samopisniy sin = " << sinus_ryadom(x) << endl;
+    cout << "sin = " << sin(x) << endl;
     return 0;
 }
