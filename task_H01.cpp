@@ -33,7 +33,7 @@ int main()
     cout << "x, grad = ";
     cin >> x;
     cout << '\n';
-    x=x*M_PI/180;
+    x=x*M_PI/180; //перевод в градусы
     cout << "samopisniy sin = " << sinus_ryadom(x) << endl;
     cout << "sin = " << sin(x) << endl;
     return 0;
